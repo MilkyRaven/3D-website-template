@@ -4,6 +4,7 @@ import SoundSection from "./components/SoundSection";
 import DisplaySection from "./components/DisplaySection";
 import WebgiViewer from "./components/WebgiViewer";
 import Loader from "./components/Loader";
+import Footer from "./components/Footer";
 function App() {
 
   return (
@@ -14,6 +15,7 @@ function App() {
       <SoundSection/>
       <DisplaySection/>
       <WebgiViewer/>
+      <Footer/>
     </div>
   );
 }

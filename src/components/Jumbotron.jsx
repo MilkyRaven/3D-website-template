@@ -15,10 +15,10 @@ export default function Jumbotron() {
     }
   return (
     <div className="jumbotron-section wrapper">
-        <h2 className="title">New</h2>
+        <h2 className="title">In stock now</h2>
         {/* <img className="logo" src={Iphone} alt="iPhone 14 Pro"></img> */}
-        <p className="text">Super tecladito</p>
-        {/* <span className="description">From $41.62/mo. for 24 mo. or $999 before trade-in.</span> */}
+        <p className="text">GUK-6000 KEYBOARD</p>
+        <span className="description">Pay in 4 interest-free installments of $31.25</span>
         <ul className="links">
             <li>
                 <button className="button">Buy</button>

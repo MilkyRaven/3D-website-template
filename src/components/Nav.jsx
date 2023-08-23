@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../assets/images/bigLogo.png"
 import Search from '../assets/images/search.svg'
 import Store from '../assets/images/store.svg'
 function Nav() {
@@ -7,34 +8,28 @@ function Nav() {
             <div className="nav-content">
                 <ul className="list-styled">
                     <li>
-                        {/* <img src={Logo} alt="company logo"></img> */}
+                        <img className="big-logo" src={Logo} alt="company logo"></img>
                     </li>
                     <li>
-                        <a className="link-styled">Store</a>
+                        <a className="link-styled">Home</a>
                     </li>
                     <li>
-                        <a className="link-styled">Mac</a>
+                        <a className="link-styled">In stock</a>
                     </li>
                     <li>
-                        <a className="link-styled">Ipad</a>
+                        <a className="link-styled">Keyboards</a>
                     </li>
                     <li>
-                        <a className="link-styled">Iphone</a>
+                        <a className="link-styled">Keycaps</a>
                     </li>
                     <li>
-                        <a className="link-styled">Watch</a>
+                        <a className="link-styled">Deskpads</a>
                     </li>
                     <li>
-                        <a className="link-styled">Airpods</a>
+                        <a className="link-styled">On sale</a>
                     </li>
                     <li>
-                        <a className="link-styled">Tv & Home</a>
-                    </li>
-                    <li>
-                        <a className="link-styled">Entertainment</a>
-                    </li>
-                    <li>
-                        <a className="link-styled">Accesories</a>
+                        <a className="link-styled">More</a>
                     </li>
                     <li>
                         <a className="link-styled">Support</a>

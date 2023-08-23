@@ -13,9 +13,9 @@ export default function SoundSection() {
     <div className='sound-section wrapper'>
         <div className='body'>
             <div className='sound-section-content content'>
-                <h2 className='title'>New Keyboard System</h2>
-                <p className='text'>Feel the keys.</p>
-                <span className='description'>Mesmerizing mechanical sound.</span>
+                <h2 className='title'>In-Switch RGB LED</h2>
+                <p className='text'>Feel it</p>
+                <span className='description'>Designed in collaboration with TinX</span>
                 <ul className="links">
                     <li>
                         <button className="button">Buy</button>

@@ -7,10 +7,10 @@ export default function () {
   }
   return (
     <div className='display-section wrapper'>
-        <h2 className='title'>New</h2>
-        <p className='text'>Brilliant.</p>
-        <span className='description'>More text.</span>
-        <button className='button'>Try me!</button>
+        <h2 className='title'></h2>
+        <p className='text'>Unleash Your Productivity</p>
+        <span className='description'>Discover the mechanical keyboard that fits your needs</span>
+        {/* <button className='button'>Try me!</button> */}
         <button className='back-button' onClick={handleScrollToTop}>TOP</button>
     </div>
   )

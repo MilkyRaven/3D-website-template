@@ -1,79 +1,86 @@
-import gsap from 'gsap';
+import gsap from "gsap";
 
 export const scrollAnimation = (position, target, onUpdate) => {
-    const tl = gsap.timeline();
+  const tl = gsap.timeline();
 
-    tl.to(position, {
-        x: 1.19,
-        y: 0.01,
-        z: -7.69,
-        scrollTrigger: {
-        trigger: '.sound-section',
-        start: 'top bottom',
-        end: 'top top',
-        scrub: 2,
-        immediateRender: false 
+  tl.to(position, {
+    x: 8.4,
+    y: -6.35,
+    z: 3.86,
+    scrollTrigger: {
+      trigger: ".sound-section",
+      start: "top bottom",
+      end: "top top",
+      scrub: 2,
+      immediateRender: false,
     },
-onUpdate})
-.to(target, {
-    x: 0.00,
-    y: 0.00,
-    z: 0.00,
+    onUpdate,
+  })
+    .to(target, {
+      x: 0.0,
+      y: 0.0,
+      z: 0.0,
+      scrollTrigger: {
+        trigger: ".sound-section",
+        start: "top bottom",
+        end: "top top",
+        scrub: 2,
+        immediateRender: false,
+      },
+    })
+    .to(".jumbotron-section", {
+      opacity: 0,
+      scrollTrigger: {
+        trigger: ".sound-section",
+        start: "top bottom",
+        end: "top top",
+        scrub: 2,
+        immediateRender: false,
+      },
+    })
+    .to(".sound-section-content", {
+      opacity: 1,
+      scrollTrigger: {
+        trigger: ".sound-section",
+        start: "top bottom",
+        end: "top top",
+        scrub: 2,
+        immediateRender: false,
+      },
+    });
+  tl.to(position, {
+    x: 1.2,
+    y: -1.0,
+    z: -4.68,
     scrollTrigger: {
-    trigger: '.sound-section',
-    start: 'top bottom',
-    end: 'top top',
-    scrub: 2,
-    immediateRender: false 
-},})
-.to('.jumbotron-section', {
-    opacity: 0,
-    scrollTrigger: {
-    trigger: '.sound-section',
-    start: 'top bottom',
-    end: 'top top',
-    scrub: 2,
-    immediateRender: false 
-},})
-.to('.sound-section-content', {
-    opacity: 1,
-    scrollTrigger: {
-    trigger: '.sound-section',
-    start: 'top bottom',
-    end: 'top top',
-    scrub: 2,
-    immediateRender: false 
-},})
-tl.to(position, {
-    x: 5.03,
-    y: -2.3,
-    z: -3.51,
-    scrollTrigger: {
-    trigger: '.display-section',
-    start: 'top bottom',
-    end: 'top top',
-    scrub: 2,
-    immediateRender: false 
-},
-onUpdate})
-.to(target, {
-x: 0.00,
-y: 0.00,
-z: 0.00,
-scrollTrigger: {
-trigger: '.display-section',
-start: 'top bottom',
-end: 'top top',
-scrub: 2,
-immediateRender: false 
-},})
-.to('.display-section', {
-    opacity: 1,
-    scrollTrigger: {
-    trigger: '.display-section',
-    start: 'top bottom',
-    end: 'top top',
-    scrub: 2,
-    immediateRender: false 
-},})
-}
+      trigger: ".display-section",
+      start: "top bottom",
+      end: "top top",
+      scrub: 2,
+      immediateRender: false,
+    },
+    onUpdate,
+  })
+    .to(target, {
+      x: 0.0,
+      y: 0.0,
+      z: 0.0,
+      scrollTrigger: {
+        trigger: ".display-section",
+        start: "top bottom",
+        end: "top top",
+        scrub: 2,
+        immediateRender: false,
+      },
+    })
+    .to(".display-section", {
+      opacity: 1,
+      scrollTrigger: {
+        trigger: ".display-section",
+        start: "top bottom",
+        end: "top top",
+        scrub: 2,
+        immediateRender: false,
+      },
+    });
+};
