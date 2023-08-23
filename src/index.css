@@ -218,7 +218,10 @@ nav .link-styled {
 }
 
 .jumbotron-section .logo {
-  width: 140px;
+  width: 200px;
+}
+.display-section .logo {
+  width: 500px;
 }
 
 .jumbotron-section .text {
@@ -461,7 +464,10 @@ nav .link-styled {
   }
 }
 .big-logo {
-  width: 80px;
+  margin: 5px;
+}
+.logo-container {
+  display: flex;
 }
 .footer {
   display: inline-block;

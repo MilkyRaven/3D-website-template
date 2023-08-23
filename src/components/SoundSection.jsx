@@ -15,7 +15,7 @@ export default function SoundSection() {
             <div className='sound-section-content content'>
                 <h2 className='title'>In-Switch RGB LED</h2>
                 <p className='text'>Feel it</p>
-                <span className='description'>Designed in collaboration with TinX</span>
+                <span className='description'>Designed in collaboration with TinEX</span>
                 <ul className="links">
                     <li>
                         <button className="button">Buy</button>

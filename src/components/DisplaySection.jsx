@@ -1,4 +1,5 @@
 import React from 'react'
+import bigLogo from "../assets/images/bigLogo.png"
 
 export default function () {
 
@@ -9,8 +10,9 @@ export default function () {
     <div className='display-section wrapper'>
         <h2 className='title'></h2>
         <p className='text'>Unleash Your Productivity</p>
-        <span className='description'>Discover the mechanical keyboard that fits your needs</span>
+        <span className='description'>Discover the mechanical keyboards that fits your needs</span>
         {/* <button className='button'>Try me!</button> */}
+        <img className="logo" src={bigLogo} alt="big logo"></img>
         <button className='back-button' onClick={handleScrollToTop}>TOP</button>
     </div>
   )

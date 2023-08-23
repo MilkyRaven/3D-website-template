@@ -7,7 +7,7 @@ function Nav() {
         <nav className="nav-wrapper">
             <div className="nav-content">
                 <ul className="list-styled">
-                    <li>
+                    <li className="logo-container">
                         <img className="big-logo" src={Logo} alt="company logo"></img>
                     </li>
                     <li>
