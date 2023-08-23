@@ -1,4 +1,5 @@
 import React from 'react'
+import tin from "../assets/images/tin-ex.png"
 
 export default function SoundSection() {
     const handleLearnMore = () => {
@@ -25,7 +26,9 @@ export default function SoundSection() {
                     </li>
                 </ul>
             </div>
+            <div className='tin'><img className="logo" src={tin} alt="tin"></img></div>
         </div>
+        {/* <div className='tin'><img className="logo" src={tin} alt="tin"></img></div> */}
     </div>
   )
 }

@@ -339,7 +339,11 @@ nav .link-styled {
 .sound-section .body {
   max-width: 980px;
   margin: 0 auto;
-}
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-items: center;
+justify-content: space-between;}
 
 .sound-section .content {
   max-width: 490px;
@@ -363,10 +367,10 @@ nav .link-styled {
   color: transparent;
   background-image: linear-gradient(
     90deg,
-    #1C639F 0%,
-    #338BCF 40%,
-    #4EA3FF 55%,
-    #6ABDFF 60%
+    #C92A38 0%,
+    #D9464A 40%,
+    #E2605C 55%,
+    #FF8A9A 60%
 );
 
   -webkit-background-clip: text;
@@ -395,7 +399,7 @@ nav .link-styled {
 }
 
 .sound-section .button {
-  background: #338BCF; 
+  background:#D9464A;
   color: #fff;
   cursor: pointer;
   display: inline-block;
@@ -412,7 +416,7 @@ nav .link-styled {
 
 .sound-section .link {
   text-decoration: none;
-  color: #338BCF; 
+  color:   #D9464A;
   font-size: 21px;
   font-weight: 400;
   margin: 0 14px;
@@ -488,4 +492,11 @@ nav .link-styled {
   font-weight: 600;
   margin-bottom: 18px;
   margin-left: 30px;
+}
+.tin {
+
+}
+.tin img {
+  width: 380px;
+  margin-left: 20px;
 }
