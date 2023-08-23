@@ -58,7 +58,7 @@ export default function WebgiViewer() {
     
         // Import and add a GLB file.
         //await viewer.load("scene-black.glb")
-        await manager.addFromPath("src/assets/scene.glb")
+        await manager.addFromPath("scene.glb")
         //await manager.addFromPath("scene-black.glb")
 
         //min 47 del tutorial
